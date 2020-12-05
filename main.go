@@ -20,7 +20,6 @@ var productcollection = helper.ConnectDB().Collection("products")
 
 func main() {
 	//Init Router
-	fmt.Println("before init")
 	r := mux.NewRouter()
 
 	// routes
